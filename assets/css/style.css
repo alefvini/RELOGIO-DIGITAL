@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Indie+Flower&family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+body {
+    height: 100vh;
+    background-image: radial-gradient(circle at 50% -20.71%, #0086ee 0, #0085fd 5%, #0083ff 10%, #0080ff 15%, #007cff 20%, #0076ff 25%, #006fff 30%, #0066ff 35%, #005bff 40%, #3b4eff 45%, #783cf2 50%, #9c21e1 55%, #b700cf 60%, #cb00bb 65%, #db00a5 70%, #e6008f 75%, #ee0079 80%, #f20063 85%, #f3004e 90%, #f10038 95%, #ec0023 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px #fff;
+}
+
+.relogio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5, 5, 5, .9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.relogio span.tempo{
+    font-size: 10px;
+}
